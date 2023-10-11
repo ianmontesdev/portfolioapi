@@ -23,7 +23,7 @@ public class PortfolioApiApplication {
 	public CorsFilter corsFilter() {
 		UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
 		CorsConfiguration config = new CorsConfiguration();
-		config.addAllowedOrigin("http://localhost:5173"); // Cambia "*" por el origen permitido que desees
+		config.addAllowedOrigin("*");
 		config.addAllowedMethod("*");
 		config.addAllowedHeader("*");
 		source.registerCorsConfiguration("/**", config);
