@@ -30,10 +30,5 @@ public class PortfolioApiApplication {
 		return new CorsFilter(source);
 	}
 
-	@GetMapping("/hw")
-	public ResponseEntity<String> apiIndex() {
-		return new ResponseEntity<String>("Experinecia: 2 años no se que .. ", HttpStatus.OK);
-	}
-
 
 }
