@@ -15,6 +15,7 @@ import java.util.List;
 public class Design {
     private String profilePic;
     private List<String> techStack;
+    @JsonRawValue
     private List<String> gallery;
     @JsonRawValue
     private List<String> education;
